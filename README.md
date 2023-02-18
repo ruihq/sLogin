@@ -19,7 +19,7 @@ To use sLogin, simply download the HTML and CSS files and place them in your pro
 
 ## Demo
 
-A live demo of sLogin is available at [https://ruihq.github.com/slogin](https://ruihq.github.com/slogin). This demo uses the default styles provided, but you can customize the form to match your own project's design.
+A live demo of sLogin is available at [https://ruihq.github.io/slogin](https://ruihq.github.io/slogin). This demo uses the default styles provided, but you can customize the form to match your own project's design.
 
 ## Contributing
 
