@@ -1,61 +1,80 @@
 body {
-   background-color: #f2f2f2;
+  background-color: #121212;
+  font-family: "Roboto", sans-serif;
 }
-      .container {
-        margin: auto;
-        width: 300px;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
-      }
-      h2 {
-        text-align: center;
-      }
-      input[type="text"], input[type="password"] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 4px;
-      }
-      button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        width: 100%;
-      }
-      button:hover {
-        background-color: #45a049;
-      }
-      .cancelbtn {
-        background-color: #f44336;
-      }
-      .imgcontainer {
-        text-align: center;
-        margin: 24px 0 12px 0;
-      }
-      img.avatar {
-        width: 30%;
-        border-radius: 50%;
-      }
-      .container form {
-        display: flex;
-        flex-direction: column;
-      }
-      .container label {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 5px;
-      }
-      /* Responsive styling */
-      @media screen and (max-width: 600px) {
-        .container {
-          max-width: 100%;
-        }
-      }
+
+.container {
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
