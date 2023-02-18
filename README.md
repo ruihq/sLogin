@@ -1,8 +1,9 @@
 # sLogin
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ruihq/sLogin/deploy.yml?style=plastic)
-![GitHub](https://img.shields.io/github/license/ruihq/sLogin?style=plastic)
-![GitHub](https://img.shields.io/github/all-contributors/ruihq/sLogin/main?style=plastic)
+![GitHub License](https://img.shields.io/github/license/ruihq/sLogin?style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ruihq/sLogin?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/ruihq/sLogin?style=plastic)
 
 sLogin is a simple login form built with HTML and CSS. It is designed to be responsive and easy to use on different screen sizes, from desktops to mobile devices.
 
@@ -18,7 +19,7 @@ To use sLogin, simply download the HTML and CSS files and place them in your pro
 
 ## Demo
 
-A live demo of sLogin is available at [https://ruihq.github.com/slogin](https://example.com/slogin). This demo uses the default styles provided, but you can customize the form to match your own project's design.
+A live demo of sLogin is available at [https://ruihq.github.com/slogin](https://ruihq.github.com/slogin). This demo uses the default styles provided, but you can customize the form to match your own project's design.
 
 ## Contributing
 
